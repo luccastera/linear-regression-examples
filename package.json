@@ -1,0 +1,26 @@
+{
+  "author": "Luc Castera",
+  "name": "linear-regression-examples",
+  "description": "Examples of using Linear Regression with node.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dambalah/linear-regression-examples.js.git"
+  },
+  "main": "app.js",
+  "engines": {
+    "node": "~0.10.30"
+  },
+  "dependencies": {
+    "simple-statistics": "0.9.0",
+    "csv-parse": "0.0.6",
+    "plotly": "0.2.13",
+    "underscore": "1.7.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "optionalDependencies": {}
+}
+
