@@ -1,6 +1,6 @@
 # Linear Regression Examples in node.js
 
-## Example 1: Simple Linear Regression using simple_statistics
+### Example 1: Simple Linear Regression using simple-statistics
 
 In this example, we use the cars data set with only two columns:
 * the horsepower column
