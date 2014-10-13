@@ -4,7 +4,8 @@ var csvParse = require('csv-parse'),
     _ = require('underscore');
 
 var apiKey = process.env.PLOTLY_API_KEY;
-var plotly = require('plotly')('luccastera',apiKey);
+var username = process.env.PLOTLY_USERNAME;
+var plotly = require('plotly')(username,apiKey);
 
 fs.readFile('data/cars.data', 'utf8', function(err, dataStr) {
   csvParse(dataStr, {delimiter: ',', auto_parse: true}, function(err, data) {
